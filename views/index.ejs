@@ -1,0 +1,35 @@
+<%- include ('partials/header.ejs') %>
+<body>
+    <%- include ('partials/navbar.ejs') %>
+    
+    <div class="container">
+        <br>
+        <div class="card-header breadcrumb">
+            <h5 style="color: #28a745" class="">
+                Morar sozinho não precisa ser complicado. A House Talk ajuda você a vencer os desafios doméstico 
+                <span class="material-symbols-rounded">
+                    handshake
+                </span>
+            </h5>  
+        </div>
+        <br>
+        <h1 style="margin-bottom: 30px;"> Qual a sua dúvida? </h1>
+        <a href="/perguntar" class="btn btn-success">Perguntar</a>
+        <hr style="margin-bottom: 30px;">
+        
+        <% perguntas.forEach(pergunta => {%>
+            <br>
+            <div class="card">
+                <div class="card-body">
+                    <p><%= pergunta.titulo %></p>
+                </div>
+                <div class="card-footer">
+                    <a href="/perguntas/<%= pergunta.id %>"><button class="btn btn-success">Responder</button></a>
+                </div>
+            </div>
+        <%})%>
+
+    </div>
+
+</body>
+<%- include ('partials/footer.ejs') %>
