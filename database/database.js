@@ -1,8 +1,8 @@
 const Sequelize = require('sequelize');
 
 //conectar o BD
-//'nome do banco de dados', 'servidor', 'senha do servidor'
-const connection = new Sequelize('guiaperguntas', 'root', 'Ufp@197713', {
+
+const connection = new Sequelize('nome do banco de dados', 'servidor', 'senha do servidor', {
     host: 'localhost',
     dialect: 'mysql'
 });
