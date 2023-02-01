@@ -4,7 +4,7 @@ Resultado do modulo Projeto 1 - do curso de [Formação Node.js na Udemy](https:
 
 obs: O segmento e a estilização foram alterados do projeto original.
 
-## :page_facing_up: Instruções
+## :desktop_computer: Páginas 
 ## :hammer_and_wrench: Tecnologias
 - HTML e Bootstrap
 - JavaScript 
