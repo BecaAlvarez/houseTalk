@@ -20,4 +20,7 @@ obs: O segmento e a estilização foram alterados do projeto original.
 - NodeJS e Express
 - Sequelize e Mysql
 
+### :mag_right: Observação
+Na pasta database, para conectar ao banco de dados é necessário alterar as seguintes informações: nome do banco de dados, servidor e senha do servidor. Indicar onde o projeto irá renderizar - host - e o sistema de gerenciamento de banco de dados.
+
 
