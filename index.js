@@ -34,8 +34,6 @@ app.use(bodyParser.json());
 
 //Rotas
 
-// Nome da roda, o que faz (requisição e resposta)
-
 //Rota pag inicio
 app.get("/", (req, res) => {
     //Equivalente select * from 
@@ -105,8 +103,8 @@ app.post("/responder", (req, res) => {
     });
 })
 
-//Chamar  servidor: Roda na porta 8080
-app.listen(8080, () =>{
+//Coloque o numero da porta par rodar o app no lugar de "porta do servidor"
+app.listen("porta do servidor", () =>{
     console.log("App rodando");
 });
 
